@@ -5,8 +5,8 @@ package eu.pstdio.login_creator_api.integration.entity;
  * @author mib
  */
 public interface LoginEntity {
-    void setLogin(String login);
-    String getLogin();
+    void setId(Long id);
+    Long getId();
     void setHashedPasswd(String hashedPasswd);
     String getHashedPasswd();
     void setSalt(String salt);
